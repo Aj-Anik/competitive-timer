@@ -7,7 +7,23 @@
 A lightweight VS Code extension that helps competitive programmers track problem-solving time directly inside the editor.
 
 ---
+Install
 
+Download the extension:
+
+➡️ Download Competitive Timer
+
+After downloading:
+
+Open VS Code
+
+Go to Extensions
+
+Click ⋯ (three dots)
+
+Select Install from VSIX
+
+Choose the downloaded .vsix file
 ## Preview
 
 ### Timer Interface
