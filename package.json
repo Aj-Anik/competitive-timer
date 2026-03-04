@@ -5,6 +5,11 @@
   "version": "0.0.1",
   "publisher": "ajanik",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aj-Anik/competitive-timer"
+  },
+  "icon": "media/icon.png",
   "engines": {
     "vscode": "^1.109.0"
   },
@@ -18,9 +23,7 @@
     "onCommand:competitive-timer.lap"
   ],
   "main": "./out/extension.js",
-
   "contributes": {
-
     "commands": [
       {
         "command": "competitive-timer.start",
@@ -39,7 +42,6 @@
         "title": "Competitive Timer: Lap"
       }
     ],
-
     "keybindings": [
       {
         "command": "competitive-timer.start",
@@ -62,7 +64,6 @@
         "when": "editorTextFocus"
       }
     ],
-
     "menus": {
       "editor/title": [
         {
@@ -71,9 +72,7 @@
         }
       ]
     }
-
   },
-
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -82,7 +81,6 @@
     "lint": "eslint src",
     "test": "vscode-test"
   },
-
   "devDependencies": {
     "@types/vscode": "^1.109.0",
     "@types/mocha": "^10.0.10",
