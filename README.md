@@ -8,23 +8,23 @@ A lightweight VS Code extension that helps competitive programmers track problem
 
 ---
 
-# Preview
+## Preview
 
 ### Timer Interface
 
-![Timer UI](media/timer-ui.png)
+<img src="media/timer-ui.png" width="800"/>
 
 ### Lap Tracking
 
-![Lap Tracking](media/lap-example.png)
+<img src="media/lap-example.png" width="800"/>
 
 ### Status Bar Timer
 
-![Status Bar](media/status-bar.png)
+<img src="media/status-bar.png" width="800"/>
 
 ---
 
-# Features
+## Features
 
 * ⏱ Simple stopwatch timer
 * ▶ Start / ⏸ Pause / 🔄 Reset controls
@@ -37,21 +37,21 @@ A lightweight VS Code extension that helps competitive programmers track problem
 
 ---
 
-# How to Use
+## How to Use
 
-1. Open the command palette
+### 1. Open the Command Palette
 
 ```
 Ctrl + Shift + P
 ```
 
-2. Run
+### 2. Run
 
 ```
 Competitive Timer: Start
 ```
 
-3. Use the buttons in the timer panel:
+### 3. Use the timer controls
 
 * **Start** → Start the timer
 * **Pause** → Pause the timer
@@ -61,25 +61,25 @@ Competitive Timer: Start
 
 ---
 
-# Why Competitive Timer?
+## Why Competitive Timer?
 
 Competitive programmers often want to measure how long each problem takes.
 
-This extension keeps the timer **inside VS Code**, so you don’t need external apps.
+This extension keeps the timer **inside VS Code**, so you don’t need external apps or distractions.
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 * Contest mode
 * Problem name tracking
 * Export lap times
 * Better statistics
-* Keyboard shortcuts
+* More keyboard shortcuts
 
 ---
 
-# Author
+## Author
 
 **AjAnik**
 
@@ -87,6 +87,6 @@ GitHub: https://github.com/Aj-Anik
 
 ---
 
-# License
+## License
 
 MIT License
