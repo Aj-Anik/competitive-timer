@@ -3,9 +3,10 @@
   "displayName": "Competitive Timer",
   "description": "Timer for competitive programmers",
   "version": "0.0.1",
+  "publisher": "ajanik",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.109.0",
-    "license": "MIT"
+    "vscode": "^1.109.0"
   },
   "categories": [
     "Other"
