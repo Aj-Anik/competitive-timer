@@ -76,6 +76,31 @@ This extension keeps the timer **inside VS Code**, so you don’t need external 
 * More keyboard shortcuts
 
 ---
+# Competitive Timer
+
+A VS Code extension for competitive programmers to track problem solving time.
+
+## Install
+
+Download the extension:
+
+➡️ **[Download Competitive Timer](https://github.com/Aj-Anik/competitive-timer/releases/latest)**
+
+After downloading:
+
+1. Open **VS Code**
+2. Go to **Extensions**
+3. Click **⋯ (three dots)**
+4. Select **Install from VSIX**
+5. Choose the downloaded `.vsix` file
+
+## Shortcuts
+
+Ctrl + Alt + S → Start Timer
+Ctrl + Alt + P → Pause Timer
+Ctrl + Alt + R → Reset Timer
+Ctrl + Alt + L → Lap Timer
+---
 
 ## Author
 
