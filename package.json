@@ -2,7 +2,7 @@
   "name": "competitive-timer",
   "displayName": "Competitive Timer",
   "description": "Timer for competitive programmers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ajanik",
   "license": "MIT",
   "repository": {
