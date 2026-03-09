@@ -10,12 +10,11 @@ A lightweight **VS Code extension** that helps competitive programmers track pro
 ## Preview
 
 ### Timer Interface
+<img src="media/new_ui.png" width="900"/>
 
-<img src="./new_ui.png" width="900"/>
 
 ### Timer Panel
-
-<img src="./new_interface.png" width="900"/>
+<img src="media/new_interface.png" width="900"/>
 ---
 
 ## Features
