@@ -4,21 +4,19 @@
 ![Language](https://img.shields.io/badge/Language-TypeScript-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A lightweight VS Code extension that helps competitive programmers track problem-solving time directly inside the editor.
+A lightweight **VS Code extension** that helps competitive programmers track problem-solving time directly inside the editor.
+
+---
 
 ## Preview
 
 ### Timer Interface
 
-<img src="media/timer-ui.png" width="800"/>
+<img src="new_ui.png" width="900"/>
 
-### Lap Tracking
+### Timer Panel
 
-<img src="media/lap-example.png" width="800"/>
-
-### Status Bar Timer
-
-<img src="media/status-bar.png" width="800"/>
+<img src="new_interface.png" width="900"/>
 
 ---
 
@@ -59,28 +57,7 @@ Competitive Timer: Start
 
 ---
 
-## Why Competitive Timer?
-
-Competitive programmers often want to measure how long each problem takes.
-
-This extension keeps the timer **inside VS Code**, so you don’t need external apps or distractions.
-
----
-
-## Future Improvements
-
-* Contest mode
-* Problem name tracking
-* Export lap times
-* Better statistics
-* More keyboard shortcuts
-
----
-# Competitive Timer
-
-A VS Code extension for competitive programmers to track problem solving time.
-
-## Install
+## Installation
 
 Download the extension:
 
@@ -94,19 +71,33 @@ After downloading:
 4. Select **Install from VSIX**
 5. Choose the downloaded `.vsix` file
 
-## Shortcuts
+---
 
-Ctrl + Alt + S → Start Timer
-Ctrl + Alt + P → Pause Timer
-Ctrl + Alt + R → Reset Timer
-Ctrl + Alt + L → Lap Timer
+
+## Why Competitive Timer?
+
+Competitive programmers often want to measure how long each problem takes.
+
+This extension keeps the timer **inside VS Code**, so you don’t need external apps or distractions while solving problems.
+
+---
+
+## Future Improvements
+
+* Contest mode
+* Problem name tracking
+* Export lap times
+* Better statistics
+* More keyboard shortcuts
+
 ---
 
 ## Author
 
-**AjAnik**
+**Aj Anik**
 
-GitHub: https://github.com/Aj-Anik
+GitHub:
+https://github.com/Aj-Anik
 
 ---
 
