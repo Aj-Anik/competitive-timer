@@ -13,82 +13,37 @@
   "engines": {
     "vscode": "^1.109.0"
   },
+
   "categories": [
     "Other"
   ],
+
   "activationEvents": [
-    "onCommand:competitive-timer.start",
-    "onCommand:competitive-timer.pause",
-    "onCommand:competitive-timer.reset",
-    "onCommand:competitive-timer.lap"
-  ],
+  "*"
+],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
+
+"contributes": {
+  "views": {
+    "explorer": [
       {
-        "command": "competitive-timer.start",
-        "title": "Competitive Timer: Start"
-      },
-      {
-        "command": "competitive-timer.pause",
-        "title": "Competitive Timer: Pause"
-      },
-      {
-        "command": "competitive-timer.reset",
-        "title": "Competitive Timer: Reset"
-      },
-      {
-        "command": "competitive-timer.lap",
-        "title": "Competitive Timer: Lap"
+        "id": "competitiveTimerView",
+        "name": "Competitive Timer",
+        "type": "webview"
       }
-    ],
-    "keybindings": [
-      {
-        "command": "competitive-timer.start",
-        "key": "ctrl+alt+s",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "competitive-timer.pause",
-        "key": "ctrl+alt+p",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "competitive-timer.reset",
-        "key": "ctrl+alt+r",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "competitive-timer.lap",
-        "key": "ctrl+alt+l",
-        "when": "editorTextFocus"
-      }
-    ],
-    "menus": {
-      "editor/title": [
-        {
-          "command": "competitive-timer.start",
-          "group": "navigation"
-        }
-      ]
-    }
-  },
+    ]
+  }
+},
+
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src",
-    "test": "vscode-test"
+    "watch": "tsc -watch -p ./"
   },
+
   "devDependencies": {
     "@types/vscode": "^1.109.0",
-    "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
-    "typescript-eslint": "^8.56.1",
-    "eslint": "^9.39.3",
-    "typescript": "^5.9.3",
-    "@vscode/test-cli": "^0.0.12",
-    "@vscode/test-electron": "^2.5.2"
+    "typescript": "^5.9.3"
   }
 }
