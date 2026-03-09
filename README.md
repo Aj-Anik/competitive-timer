@@ -7,17 +7,15 @@
 A lightweight **VS Code extension** that helps competitive programmers track problem-solving time directly inside the editor.
 
 ---
-
 ## Preview
 
 ### Timer Interface
 
-<img src="new_ui.png" width="900"/>
+<img src="./new_ui.png" width="900"/>
 
 ### Timer Panel
 
-<img src="new_interface.png" width="900"/>
-
+<img src="./new_interface.png" width="900"/>
 ---
 
 ## Features
